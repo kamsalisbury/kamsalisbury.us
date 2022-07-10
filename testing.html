@@ -21,14 +21,45 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
     </head>
     <body>
-        <section class="section">
-            <div class="container">
-                <h1 class="title">
-                Hello World
-                </h1>
-                <p class="subtitle">
-                My first website with <strong>Bulma</strong>!
-                </p>
+        <section class="container is-fluid">
+            <div class="columns is-mobile">
+                <div class="column">
+                    <div class="container">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-4 is-parent is-vertical">
+                                <!-- All other tile elements -->
+                                <div class="tile is-child">
+                                    <!-- Add content or other tiles -->
+                                    <article class="media">
+                                        <figure class="media-left">
+                                            <p class="image is-64x64">
+                                            <img src="IMG_1811_adobe_express.jpeg">
+                                            </p>
+                                        </figure>
+                                        <div class="media-content">
+                                            <div class="content">
+                                            <p class="title">Title</p>
+                                            <p class="subtitle">Subtitle</p>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="tile is-child box">
+                                    <!-- Add content or other tiles -->
+                                    <p class="title">Tile 1</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                                </div>
+                                <div class="tile is-child box">
+                                    <!-- Add content or other tiles -->
+                                    <p class="title">Tile 2</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <p>&copy; 2022 Kam Salisbury, All rights Reserved</p>
+                    </div>
+                </div>
             </div>
         </section>
     </body>
